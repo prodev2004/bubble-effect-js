@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000008;
+    overflow: hidden;
+}
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+
+span {
+    width: 80px;
+    aspect-ratio: 1;
+    box-shadow: inset 3px 3px .5rem rgba(0, 0, 0, .5),
+                inset -1px -1px .5rem rgba(255, 255, 255, .3);
+    position: absolute;
+    border-radius: 50%;
+    top: 100%;
+    animation: to_top linear;
+}
+
+@keyframes to_top {
+    from { top: 100%; }
+    to { top: -10%; }
+}
+
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
